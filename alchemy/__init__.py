@@ -1,5 +1,3 @@
-from .elements import create_fire, create_water
-
-__version__ = "1.0.0"
-__author__ = "Master Pythonicus"
-__all__ = ["create_fire", "create_water"]
+from .elements import create_air # noqa 
+from .potions import healing_potion as heal, strength_potion # noqa 
+from .transmutation import lead_to_gold # noqa 
